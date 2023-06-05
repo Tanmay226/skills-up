@@ -1,0 +1,1030 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* border: 1px solid red; */
+  text-decoration: none;
+  list-style: none;
+}
+
+a,
+a:hover,
+a:focus,
+input,
+button,
+textarea,
+button:hover,
+button:focus {
+  outline: none;
+  text-decoration: none;
+}
+
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+  scroll-padding-top: 9rem;
+  scroll-behavior: smooth;
+}
+
+body {
+  overflow: hidden;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: "Poppins", sans-serif;
+  color: #252525;
+}
+
+img {
+  max-width: 100%;
+  height: 100%;
+}
+
+a {
+  /* color: #fff; */
+  transition: all 0.3s linear;
+}
+
+.nav-logo {
+  width: 233px;
+  height: 207px;
+}
+.navbar-brand {
+  margin-left: -25px;
+  margin-top: -5px;
+}
+
+.nav-lang {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.home-container {
+  background: url(../images/2.png) no-repeat center center/cover;
+  background-color: black;
+}
+.form-inline {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-flow: row wrap;
+  flex-flow: row wrap;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.nav-line {
+  font-size: 15px;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.home-container .home-info .h-title {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 80px;
+  line-height: 98px;
+
+  color: #ffffff;
+}
+
+.home-container .home-info p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 36px;
+  /* or 180% */
+  color: #b0b0b0;
+}
+
+.home-container .line-bar {
+  background: #ffffff;
+  position: absolute;
+  width: 111px;
+  height: 6px;
+  top: -12px;
+}
+
+.book-now-btn {
+  background: #ed1d26;
+  width: 193px;
+  height: 64px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: #ffffff;
+  outline: none;
+  border: 1px solid transparent;
+}
+
+.book-now-btn:hover {
+  background: transparent;
+  color: #ed1d26;
+  border: 1px solid #ed1d26;
+}
+
+/* SERVICE SECTION */
+.h2-header,
+.importent-container .i-header h2 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 52px;
+  line-height: 63px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #232323;
+}
+
+.sub-header,
+.importent-container .i-header p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 36px;
+  text-align: center;
+  color: #606060;
+}
+
+.our-service-container .service-body .card-title {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 32px;
+  text-align: center;
+  text-transform: uppercase;
+
+  color: #232323;
+}
+
+.our-service-container .service-body .card-text {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  /* or 188% */
+  max-width: 450px;
+  text-align: center;
+
+  color: #353535;
+}
+
+.our-service-container .service-body .card-head {
+  height: 338px;
+}
+
+.our-service-container .service-body .card:hover {
+  box-shadow: 0px 4px 74px rgba(0, 0, 0, 0.25);
+}
+
+.our-service-container .service-body .card:hover .card-title {
+  color: red;
+}
+
+/* COLLECTION CONTAINER */
+.collection-container {
+  height: 1020px;
+}
+
+.collection-container .media-icon {
+  color: #ffff;
+  font-size: 36px;
+  text-align: center;
+}
+
+.collection-container .front-header h4 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 42px;
+  line-height: 51px;
+  text-align: center;
+
+  color: #ffffff;
+}
+
+.collection-container .front-text {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 34px;
+  /* or 189% */
+
+  text-align: center;
+
+  color: #ffffff;
+}
+
+.collection-container .front-part {
+  background: radial-gradient(
+      50% 50% at 50% 50%,
+      #030303 0%,
+      rgba(3, 3, 3, 0) 85.54%
+    ),
+    url(../images/5.png) no-repeat center center/cover;
+  width: 90%;
+  height: 89%;
+  right: 0;
+  top: 0;
+}
+
+.collection-container .back-part {
+  width: 93%;
+  height: 78%;
+  background: #2a3c8f;
+  bottom: 0;
+  left: 0;
+  z-index: -10;
+}
+/* Project Container  */
+
+.project-container .project-header h2 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 26px;
+  line-height: 32px;
+  letter-spacing: 0.4em;
+  text-transform: uppercase;
+
+  color: #000000;
+}
+
+.project-container .project-header h2 span {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 62px;
+  line-height: 76px;
+  text-transform: uppercase;
+  color: #000000;
+  letter-spacing: 0;
+}
+
+.project-container .card-1 {
+  width: 677px;
+  height: 772px;
+}
+.project-container .card-1 .card-top {
+  height: 100%;
+  width: 100%;
+}
+
+.project-container .card-1 .image {
+  width: 100%;
+  height: 87%;
+}
+.project-container .card-1 .card-buttom {
+  width: 81%;
+  height: 22%;
+  background: #ffff;
+  bottom: 0;
+}
+
+.project-container .card-buttom .card-header-1 h4 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 37px;
+  color: #000000;
+}
+.project-container .card-1 .card-text p {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 28px;
+  color: #000000;
+}
+.project-container .project {
+  width: 1659px;
+}
+
+/* about container */
+
+.about-container .about-header h2 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 32px;
+  letter-spacing: 0.4em;
+  text-transform: uppercase;
+  color: #000000;
+}
+.about-container .about-header h2 span {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 52px;
+  line-height: 63px;
+  color: #000000;
+  letter-spacing: 0;
+  text-transform: none;
+}
+
+.about-container .right-part p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 34px;
+  color: #000000;
+}
+/* importent section */
+.importent-container .card-2 h5 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 34px;
+  text-align: center;
+
+  color: #262626;
+}
+.importent-container .card-2 h5:hover {
+  color: #ed1d24;
+}
+
+.importent-container .card-2 .icon {
+  text-align: center;
+  color: #e11d26;
+  font-size: 76px;
+}
+.importent-container .card-2 p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  text-align: center;
+  color: #262626;
+  opacity: 0.8;
+}
+
+/* gallery section */
+.gallery-container .gallery-center {
+  width: 17%;
+  height: 72%;
+  position: absolute;
+  z-index: 10;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #ffffff;
+}
+.gallery-container .gallery-center:hover {
+  box-shadow: 0px 4px 50px rgba(0, 0, 0, 0.25);
+}
+.gallery-container .gallery-center:hover p {
+  color: #ed1d24;
+}
+
+.gallery-container .gallery-center h3 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 52px;
+  line-height: 63px;
+  text-align: center;
+
+  color: #000000;
+}
+.gallery-container .gallery-center p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+/* footer section */
+.footer-container .media-icon {
+  font-size: 33px;
+  color: #a3a3a3;
+  cursor: pointer;
+}
+.footer-container .media-icon .icon:hover {
+  color: #ed1d24;
+}
+.footer-container .f-left {
+  width: 62%;
+}
+.footer-container .copy-right p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+
+  color: #797979;
+}
+
+.footer-container .f-menu .header {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 26px;
+  color: #212832;
+}
+
+.footer-container .f-menu ul li {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 36px;
+  cursor: pointer;
+  color: #696d76;
+}
+.footer-container .f-menu ul li:hover {
+  color: #ed1d26;
+}
+
+/* media Quries */
+@media (min-width: 1400px) {
+  .container {
+    max-width: 1419px;
+  }
+}
+
+@media only screen and (max-width: 1399px) {
+  .nav-logo {
+    width: 196px;
+    height: 173px;
+  }
+  .about-container .about-header h2 span {
+    font-size: 43px;
+    line-height: 54px;
+  }
+  /* about container */
+  .about-container .right-part p {
+    font-size: 17px;
+    line-height: 28px;
+  }
+  /* importent section */
+  .importent-container .card-2 .icon {
+    font-size: 73px;
+  }
+  .importent-container .card-2 h5 {
+    font-size: 23px;
+    line-height: 31px;
+  }
+  .importent-container .card-2 p {
+    font-size: 13px;
+    line-height: 24px;
+  }
+  /* gallery section */
+  .gallery-container .gallery-center h3 {
+    font-size: 41px;
+    line-height: 59px;
+  }
+  .gallery-container .gallery-center p {
+    font-size: 14px;
+    line-height: 18px;
+  }
+  /* footer section */
+  .footer-container .f-left {
+    width: 73%;
+  }
+  .footer-container .media-icon {
+    font-size: 29px;
+  }
+  .footer-container .f-menu ul li {
+    font-size: 14px;
+    line-height: 34px;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .home-container .home-info .h-title {
+    font-size: 72px;
+    line-height: 86px;
+  }
+
+  .home-container .home-info p {
+    font-size: 17px;
+    line-height: 31px;
+  }
+
+  .home-container .line-bar {
+    width: 92px;
+  }
+
+  /* SERVICE SECTION */
+  .h2-header,
+  .importent-container .i-header h2 {
+    font-size: 46px;
+    line-height: 57px;
+  }
+
+  .sub-header,
+  .importent-container .i-header p {
+    font-size: 18px;
+    line-height: 31px;
+  }
+
+  /* COLLECTION SECTION */
+  .collection-container {
+    height: 861px;
+  }
+
+  .collection-container .front-header h4 {
+    font-size: 39px;
+    line-height: 48px;
+  }
+  /* PROJECT SECTION
+     */
+  .project-container .project-header h2 {
+    font-size: 19px;
+    line-height: 25px;
+  }
+  .project-container .project-header h2 span {
+    font-size: 45px;
+    line-height: 66px;
+  }
+
+  .project-container .card-1 {
+    width: 600px;
+
+    height: 700px;
+  }
+  /* about section 
+   */
+  .about-container .about-header h2 span {
+    font-size: 34px;
+    line-height: 48px;
+  }
+  .about-container .about-header h2 {
+    font-size: 23px;
+    line-height: 30px;
+  }
+  .about-container .right-part p {
+    font-size: 15px;
+    line-height: 25px;
+  }
+  /* importent section */
+  .importent-container .card-2 h5 {
+    font-size: 21px;
+    line-height: 29px;
+  }
+  .importent-container .card-2 .icon {
+    font-size: 67px;
+  }
+  .importent-container .card-2 p {
+    font-size: 12px;
+    line-height: 19px;
+  }
+  /* gallery section */
+  .gallery-container .gallery-center h3 {
+    font-size: 33px;
+    line-height: 50px;
+  }
+  .gallery-container .gallery-center p {
+    font-size: 12px;
+    line-height: 14px;
+  }
+  /* footer section */
+  .footer-container .f-left {
+    width: 90%;
+  }
+  .footer-container .f-menu ul li {
+    font-size: 11px;
+    line-height: 30px;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .nav-logo {
+    width: 132px;
+    height: 125px;
+  }
+
+  .home-container .home-info .h-title {
+    font-size: 64px;
+    line-height: 77px;
+  }
+
+  .home-container .home-info p {
+    font-size: 15px;
+    line-height: 29px;
+  }
+
+  .book-now-btn {
+    width: 170px;
+    height: 57px;
+    font-size: 14px;
+    line-height: 23px;
+  }
+
+  .home-container .line-bar {
+    width: 80px;
+  }
+  /* OUR SERVICE */
+  .our-service-container .service-body .card-head {
+    height: 242px;
+}
+
+  /* SERVICE SECTION */
+  .h2-header,
+  .importent-container .i-header h2 {
+    font-size: 40px;
+    line-height: 50px;
+  }
+
+  /* COLLTECTION SECTION */
+  .collection-container {
+    height: 794px;
+  }
+  /* PROJECT SECTION */
+  .project-container .project-header h2 span {
+    font-size: 37px;
+    line-height: 60px;
+  }
+  .project-container .card-1 {
+    width: 550px;
+
+    height: 620px;
+  }
+  .project-container .card-buttom .card-header-1 h4 {
+    font-size: 25px;
+    line-height: 34px;
+  }
+
+  /* about section */
+  .about-container .about-header h2 {
+    font-size: 20px;
+    line-height: 26px;
+    letter-spacing: 0.3rem;
+  }
+  .about-container .about-header h2 span {
+    font-size: 24px;
+    line-height: 38px;
+  }
+  .about-container .right-part p {
+    font-size: 13px;
+    line-height: 20px;
+  }
+  /* importent section */
+  .importent-container .card-2 h5 {
+    font-size: 19px;
+    line-height: 29px;
+  }
+  .importent-container .card-2 .icon {
+    font-size: 58px;
+  }
+  .importent-container .card-2 p {
+    font-size: 11px;
+    line-height: 19px;
+  }
+  /* gallery section  */
+  .gallery-container .gallery-center {
+    width: 328px;
+    height: 253px;
+  }
+  .gallery-container .gallery-center h3 {
+    font-size: 44px;
+    line-height: 64px;
+  }
+  .gallery-container .gallery-center p {
+    font-size: 14px;
+    line-height: 21px;
+  }
+  /* footer section */
+  .footer-container .f-menu ul li {
+    font-size: 11px;
+    line-height: 24px;
+  }
+  .footer-container .copy-right p {
+    font-size: 12px;
+    line-height: 22px;
+  }
+  .footer-container .media-icon {
+    font-size: 22px;
+  }
+}
+
+/* tablet */
+@media only screen and (max-width: 767px) {
+  .nav-logo {
+    width: 111px;
+    height: 109px;
+  }
+
+  .home-container .line-bar {
+    width: 69px;
+    top: -3px;
+  }
+
+  /* SERVICE SECTION */
+  .h2-header {
+    font-size: 37px;
+    line-height: 46px;
+  }
+
+  /* COLLECTION */
+  .collection-container {
+    height: 666px;
+  }
+
+  .collection-container .front-header h4 {
+    font-size: 35px;
+    line-height: 46px;
+  }
+  /* PROJECT SECTION */
+
+  .project-container .project-header h2 span {
+    font-size: 29px;
+    line-height: 46px;
+  }
+  .project-container .project-header h2 {
+    font-size: 18px;
+    line-height: 20px;
+  }
+  .project-container .card-1 {
+    width: 444px;
+    height: 492px;
+  }
+  .project-container .card-buttom .card-header-1 h4 {
+    font-size: 20px;
+    line-height: 21px;
+  }
+  .project-container .card-1 .card-text p {
+    font-size: 12px;
+    line-height: 20px;
+  }
+  /* about section */
+  .about-container .about-header h2 span {
+    font-size: 25px;
+    line-height: 39px;
+  }
+  .about-container .about-header h2 {
+    font-size: 21px;
+    line-height: 27px;
+    letter-spacing: 0.3rem;
+  }
+  .about-container .right-part p {
+    font-size: 15px;
+    line-height: 24px;
+  }
+  /* importent section */
+  .importent-container .card-2 .icon {
+    font-size: 44px;
+  }
+  .importent-container .card-2 h5 {
+    font-size: 14px;
+    line-height: 22px;
+  }
+  .importent-container .card-2 p {
+    font-size: 11px;
+    line-height: 15px;
+  }
+  /* gallery section */
+  .gallery-container .gallery-center h3 {
+    font-size: 40px;
+    line-height: 58px;
+  }
+  .gallery-container .gallery-center {
+    width: 273px;
+    height: 214px;
+  }
+  .gallery-container .gallery-center p {
+    font-size: 13px;
+    line-height: 20px;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .home-container .home-info .h-title {
+    font-size: 53px;
+    line-height: 66px;
+  }
+
+  /* service section */
+  .sub-header,
+  .importent-container .i-header p {
+    font-size: 16px;
+    line-height: 28px;
+  }
+
+  .collection-container {
+    height: 586px;
+  }
+  /* importent section */
+  .importent-container .card-2 h5 {
+    font-size: 20px;
+    line-height: 31px;
+  }
+  .importent-container .card-2 p {
+    font-size: 13px;
+    line-height: 15px;
+  }
+
+  .importent-container .b-none {
+    border-left: none !important;
+    border-right: none !important;
+  }
+  /* gallery section */
+  .gallery-container .gallery-center {
+    width: 234px;
+    height: 172px;
+  }
+  .gallery-container .gallery-center h3 {
+    font-size: 35px;
+    line-height: 53px;
+  }
+  .gallery-container .gallery-center p {
+    font-size: 12px;
+    line-height: 17px;
+  }
+}
+
+/* mobile  */
+@media only screen and (max-width: 479px) {
+  .nav-logo {
+    width: 104px;
+    height: 103px;
+  }
+
+  .book-now-btn {
+    width: 143px;
+    height: 51px;
+    font-size: 12px;
+    line-height: 17px;
+  }
+
+  /* SERVICE SECTION */
+
+  .h2-header,
+  .importent-container .i-header h2 {
+    font-size: 31px;
+    line-height: 41px;
+  }
+
+  /* COLLECTION SECTION */
+  .collection-container {
+    height: 550px;
+  }
+
+  .collection-container .front-header h4 {
+    font-size: 23px;
+    line-height: 37px;
+  }
+
+  .collection-container .front-text {
+    font-size: 12px;
+    line-height: 27px;
+  }
+
+  .collection-container .center {
+    width: 85% !important;
+  }
+
+  .collection-container .media-icon {
+    font-size: 31px;
+  }
+  /* PROJECT SECTION */
+  .project-container .project-header h2 span {
+    font-size: 22px;
+    line-height: 41px;
+  }
+  .project-container .project-header h2 {
+    font-size: 14px;
+    line-height: 17px;
+  }
+  .project-container .card-1 {
+    width: 350px;
+
+    height: 450px;
+  }
+  .project-container .card-buttom .card-header-1 h4 {
+    font-size: 17px;
+    line-height: 16px;
+  }
+  .project-container .card-1 .card-text p {
+    font-size: 10px;
+    line-height: 18px;
+  }
+  /* aboit container */
+  .about-container .right-part p {
+    font-size: 14px;
+    line-height: 20px;
+  }
+}
+
+@media only screen and (max-width: 379px) {
+  .home-container .home-info .h-title {
+    font-size: 42px;
+    line-height: 57px;
+  }
+
+  .home-container .line-bar {
+    width: 50px;
+  }
+
+  /* SERVICE SECTION */
+
+  .h2-header,
+  .importent-container .i-header h2 {
+    font-size: 21px;
+    line-height: 36px;
+  }
+
+  .sub-header,
+  .importent-container .i-header p {
+    font-size: 14px;
+    line-height: 22px;
+  }
+  .our-service-container .service-body .card-head {
+    height: 243px;
+  }
+  .our-service-container .service-body .card-text {
+    font-size: 13px;
+    line-height: 27px;
+  }
+  .our-service-container .service-body .card-title {
+    font-size: 20px;
+    line-height: 26px;
+  }
+
+  /* COLLECTION SECTION */
+  .collection-container {
+    height: 309px;
+  }
+
+  .collection-container .front-header h4 {
+    font-size: 20px;
+    line-height: 33px;
+  }
+
+  .collection-container .front-text {
+    font-size: 10px;
+    line-height: 23px;
+  }
+  .collection-container .media-icon {
+    font-size: 27px;
+  }
+  /* PROJECT SECTION */
+  .project-container .project-header h2 span {
+    font-size: 18px;
+    line-height: 38px;
+  }
+  .project-container .project-header h2 {
+    font-size: 13px;
+    line-height: 11px;
+  }
+  .project-container .card-1 {
+    width: 300px;
+
+    height: 400px;
+  }
+  .project-container .card-buttom .card-header-1 h4 {
+    font-size: 13px;
+    line-height: 16px;
+  }
+  /* about section */
+  .about-container .about-header h2 {
+    font-size: 19px;
+    line-height: 25px;
+    letter-spacing: 0.3rem;
+  }
+  .about-container .about-header h2 span {
+    font-size: 22px;
+    line-height: 34px;
+  }
+  .about-container .right-part p {
+    font-size: 11px;
+    line-height: 16px;
+  }
+  /* gallery section */
+  .gallery-container .gallery-center {
+    width: 188px;
+    height: 142px;
+  }
+  .gallery-container .gallery-center h3 {
+    font-size: 30px;
+    line-height: 48px;
+  }
+  .gallery-container .gallery-center p {
+    font-size: 10px;
+    line-height: 12px;
+  }
+}
